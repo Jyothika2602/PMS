@@ -1,0 +1,52 @@
+.payments-page {
+    padding: 24px;
+    color: white;
+  }
+  
+  .payment-methods button {
+    margin: 0 10px;
+    padding: 10px 16px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .payment-methods button:hover {
+    background: #666;
+  }
+  
+  .payment-section {
+    margin-top: 24px;
+  }
+  
+  .card-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  
+  .card-form input {
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    background: #2e2e2e;
+    color: white;
+  }
+  
+  .card-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card-form button {
+    background: #ffa500;
+    color: black;
+    padding: 12px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }

@@ -1,0 +1,135 @@
+.luxury-sidebar {
+  width: 280px;
+  background-color: var(--deep-black);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 158, 27, 0.1);
+  padding: 2rem 1.5rem;
+  overflow-y: auto;
+}
+
+/* Keep existing sidebar styles */
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 158, 27, 0.1);
+}
+
+.brand-icon {
+  font-size: 2rem;
+  color: var(--gold-orange);
+  margin-right: 0.75rem;
+}
+
+.sidebar-brand h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.sidebar-brand h1 span {
+  color: var(--luxury-orange);
+}
+
+.sidebar-menu {
+  flex: 1;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 107, 53, 0.1);
+}
+
+.menu-item.active {
+  background-color: rgba(255, 107, 53, 0.2);
+  border-left: 4px solid var(--luxury-orange);
+}
+
+.menu-item.active .menu-icon,
+.menu-item.active span {
+  color: var(--gold-orange);
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  color: var(--text-gray);
+  margin-right: 1rem;
+}
+
+.menu-item span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.sidebar-footer {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 158, 27, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 0.75rem;
+  border: 2px solid var(--gold-orange);
+}
+
+.user-info h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-white);
+}
+
+.user-info p {
+  font-size: 0.75rem;
+  color: var(--text-gray);
+}
+
+.logout-btn {
+  background: rgba(255, 107, 53, 0.1);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: rgba(255, 107, 53, 0.3);
+}
+
+.logout-icon {
+  font-size: 1.25rem;
+  color: var(--luxury-orange);
+}

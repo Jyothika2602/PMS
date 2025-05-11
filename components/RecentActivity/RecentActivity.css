@@ -1,0 +1,65 @@
+.luxury-activity {
+  background-color: var(--deep-black);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 158, 27, 0.1);
+  grid-area: activity;
+  height: fit-content;
+}
+
+.luxury-activity h2 {
+  font-size: 1.5rem;
+  color: var(--text-white);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.activity-item:hover {
+  background-color: var(--soft-black);
+}
+
+.activity-icon-container {
+  min-width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-icon {
+  font-size: 1.2rem;
+}
+
+.activity-details h3 {
+  font-size: 1rem;
+  color: var(--text-white);
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.activity-details p {
+  font-size: 0.85rem;
+  color: var(--text-gray);
+  margin-bottom: 0.25rem;
+}
+
+.activity-details small {
+  font-size: 0.75rem;
+  color: var(--text-gray);
+}
